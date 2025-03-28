@@ -38,7 +38,7 @@ Gem::Specification.new do |spec|
   spec.files += Dir.glob("lib/**/*.rb")
   spec.extensions = ["dependency-check/Rakefile"]
 
-  spec.add_runtime_dependency("red-arrow")
+  spec.add_runtime_dependency("red-arrow-dataset")
 
   # TODO
   # required_msys2_package_version = version_components[0, 3].join(".")
