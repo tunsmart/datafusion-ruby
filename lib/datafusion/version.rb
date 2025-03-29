@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 
 module DataFusion
-  VERSION = "21.0.0"
+  VERSION = "22.0.0"
 
   module Version
     MAJOR, MINOR, MICRO = VERSION.split(".").collect(&:to_i)
